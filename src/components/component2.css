@@ -1,0 +1,77 @@
+.component2-container {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-sixunits);
+  flex-direction: row;
+}
+.component2-analyze {
+  top: -116px;
+  left: 426px;
+  width: 464px;
+  height: 34px;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+}
+.component2-icon {
+  top: 37px;
+  left: 187px;
+  width: 87px;
+  height: 59px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .component2-analyze {
+    top: -110px;
+    left: 237px;
+    width: 464px;
+    height: 34px;
+  }
+  .component2-icon {
+    top: 33px;
+    left: 189px;
+  }
+}
+@media(max-width: 1200px) {
+  .component2-analyze {
+    top: -114px;
+    left: 121px;
+    width: 308px;
+  }
+  .component2-icon {
+    top: 1px;
+    left: 104px;
+    width: 104px;
+    height: 114px;
+  }
+}
+@media(max-width: 991px) {
+  .component2-analyze {
+    top: -51px;
+    left: 16px;
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .component2-container {
+    gap: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+  }
+  .component2-analyze {
+    margin-right: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .component2-container {
+    gap: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: 0px;
+  }
+  .component2-analyze {
+    margin-bottom: 0px;
+  }
+}
